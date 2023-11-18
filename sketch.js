@@ -13,10 +13,10 @@ function setup() {
   for (let i = 0; i < 4; i++) {
     moons[i] = new Moon(
       i,
-      windowWidth/2, 
-      windowHeight*1.50, 
-      i * PI/2, 
-      windowHeight*1.25
+      windowWidth / 2,
+      windowHeight * 1.50,
+      i * PI / 2,
+      windowHeight * 1.25
     );
   }
 }
@@ -42,4 +42,12 @@ function drawStars() {
     moons[i].draw();
   }
 
+}
+
+function windowResized() {
+  stars = [];
+  for (let i = 0; i < NUM_STARS; i++) {
+    stars.push(new Star(random(windowWidth), random(windowHeight)));
+  }
+  resizeCanvas(windowWidth, windowHeight);
 }

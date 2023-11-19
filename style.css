@@ -12,18 +12,49 @@ canvas {
   top: 0;
   left: 0;
   z-index: -3 !important;
+  /* filter: blur(1px); */
 }
 
 
 #poems {
-  background: rgba(25, 20, 30, .6);
+  /* background: rgba(25, 20, 30, .6); */
   margin: 20%;
-  padding: 5px;
+  padding: 15px;
 
 }
 
-h2, p {
-  color: #e0d9c3;
+.poem {
+  padding-bottom: 30vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #eeeadd;
   font-weight: bold;
-  
 }
+
+p {
+  font-size: 1.4em;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+/* h1, h2, h3, h4, h5, p { */
+/*   /1* color: #e0d9c3; *1/ */
+/*   color: #eeeadd; */
+/*   /1* color: white; *1/ */
+/*   font-weight: bold; */
+  
+/* } */

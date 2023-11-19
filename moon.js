@@ -12,7 +12,7 @@ class Moon {
   }
 
   update() {
-    this.a -= .002;
+    this.a -= .001;
   }
 
   draw() {
@@ -27,8 +27,8 @@ class Moon {
     if (this.id == 1) {
       push();
 
-      fill(25, 20, 30);
-      stroke(25, 20, 30);
+      fill(25, 20, 30, 255);
+      stroke(25, 20, 30, 255);
 
       let radius = this.radius - 20;
       circle(

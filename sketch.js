@@ -29,8 +29,8 @@ function draw() {
 
 
 function drawStars() {
-  fill(245, 200, 66);
-  stroke(122, 101, 35);
+  fill(180, 130, 27);
+  stroke(112, 91, 21);
 
   for (let i = 0; i < stars.length; i++) {
     stars[i].draw();

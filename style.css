@@ -12,7 +12,7 @@ canvas {
   top: 0;
   left: 0;
   z-index: -3 !important;
-  /* filter: blur(1px); */
+  /* filter: blur(.75px); */
 }
 
 
@@ -29,10 +29,29 @@ canvas {
   padding-right: 15px;
   color: #eeeadd;
   font-weight: bold;
+  backdrop-filter: blur(2px);
 }
+
+.preface {
+  margin: 15%;
+  text-align: center;
+  padding-bottom: 50vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #eeeadd;
+  font-weight: bold;
+  line-height: 40px;
+  
+}
+
+/* .preface p { */
+/*   border-radius: 20px; */
+/*   backdrop-filter: blur(2px); */
+/* } */
 
 p {
   font-size: 1.4em;
+  /* backdrop-filter: blur(2px); */
 }
 
 h1 {
